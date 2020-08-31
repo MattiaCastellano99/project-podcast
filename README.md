@@ -1,14 +1,22 @@
-# project-podcast Castellano Mattia, 20031813
+# project-podcast
+
+## Autore: Castellano Mattia, 20031813
 
 Link al video introduttivo: https://youtu.be/TFlnsaby9zA
 
 Link al repository su GitHub contenente il progetto: https://github.com/MattiaCastellano99/project-podcast
 
-TIPS
--   al fine di avere un effetto video non distorto è bene che le immagini siano in formato 500x500 px
-
+una volta scaricato il progetto dal link qui sopra, basterà aprire la cartella su Visual Studio Code, aprire il terminale e digitare il comando 'npm install' al fine di andare ad installare tutto il necessario per il corretto funzionamento sulla propria macchina.
+Una volta fatto ciò si potrà andare a lanciare il server digitando sempre su terminale:
 -   per lanciare il server su linux --> npm start
     per lanciare il server su windows --> npx nodemon server.js
+
+a questo punto il server sarà online e disponibile alla pagina: 
+http://localhost:3000/
+
+
+TIPS
+-   al fine di avere un effetto video non distorto è bene che le immagini siano in formato 500x500 px
 
 -   Indicazioni server.js:
     .   server.js contiene le routes legate all'autenticazione (login, join-us e logout). Contiene inoltre routes legate all'utente (verifica dell'accesso e recupero delle informazioni). Infine contiene le routes che permettono l'upload delle immagini e dei file audio.

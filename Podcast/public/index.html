@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" href="/icons/iconNavigation.svg">
+        <title>Podcast</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Personal CSS -->
+        <link rel="stylesheet" href="/styleM.css">
+        
+        <!-- JavaScript -->
+        <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <!-- Personal JavaScript -->
+        <script defer src="/js/moment.js"></script>
+        <script type="module" defer src="/js/main.js"></script>
+        
+
+    </head>
+
+    <body class="bg-dark">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="myNavbar">
+            <a class="navbar-brand mr-auto mr-lg-3 mr-sm-1" href="/">Podcast By Me</a>
+            <button class="navbar-toggler" id="navToggle" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-nav mr-auto" id="titleHere">
+                    <div class="dropdown-menu category-dropdown" aria-labelledby="dropdown1" id="categoriesDropdown">
+                        <!-- JS inserirà le categorie qui -->
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+
+        <!-- CategoryBar -->
+        <div class="shadow-sm padding-bottom-navbar" id="catBar">
+            <nav class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-link text-light mx-auto" href="/">Home</a>
+                <a class="nav-link text-light mx-auto active" href="/categories/Commedia">Commedia</a>
+                <a class="nav-link text-light mx-auto" href="/categories/Tecnologia">Tecnologia</a>
+                <a class="nav-link text-light mx-auto" href="/categories/Musica">Musica</a>
+                <a class="nav-link text-light mx-auto" href="/categories/Informazione">Informazione</a>
+            </nav>
+        </div>
+
+        <!-- Join Us -->
+        <div class="position-relative overflow-hidden text-light p-3 p-md-5 text-center back-img" id="joinUs"></div>
+
+        <!-- Barra di Ricerca -->
+        <div class="row" id="searchBar">
+        </div>
+
+        <div class="bg-dark padding-between-episode">
+            <h1 class="text-light text-center" id="mainTitle">Le nostre Serie</h1>
+        </div>
+
+        <main class="bg-personal">
+            
+            <div class="mx-auto" id="alert-message"></div>
+            
+            <div id="SerieBox">
+                <!-- JS Willl Fill It -->
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+/*File CSS*/
+
+.padding-bottom-navbar{
+    padding-top: 3.5rem;
+}
+
+.back-img{
+    background-image: url(./FileCopertine/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding-between-episode{
+    padding-top: 3rem;
+}
+
+.box-style{
+    width: 80%; 
+    height: 30%;
+}
+
+.bg-personal{
+    background-color: #9077a1;
+}
+
+.bg-personal1{
+    background-color: #2e2333;
+}
+
+.search-dropdown{
+    left: 75%;
+    right: 1px;
+    background-color: #343A40;
+}
+
+.category-dropdown{
+    left: auto;
+    padding: 0px,0px,0px,0px;
+    background-color: #343A40;
+}
+
+.nav-link.active{
+    color: black!important;
+}
+
+.col-3{
+    /*necessario perchè col-3 va fuori dallo schermo*/
+    flex: inherit!important;
+}
+
+.rem-padding{
+    padding-bottom: 0px;
+}
+
+/* perchè altrimenti mi andava oversize la loginTemplate*/
+.row{
+    margin: 0px;
+}
+
+.add-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#colPersonalized{
+    padding-left: 0px;
+}
+
+.favourite-button{
+    margin-right: 90%;
+}
+
+.my-button{
+    width: 61px;
+    padding-bottom: 10px;
+}

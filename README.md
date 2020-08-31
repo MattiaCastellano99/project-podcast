@@ -23,7 +23,7 @@ TIPS
 -   il deploy del database in sql si trova nella cartella Podcast ed è chiamato podcast.db.sql
 -   il deploy del database in sqlite si trova nella cartella Podcast ed è chiamato podcast.db
 
--   Per comodità nel file zip sono stati aggiunti dei file .mp3 e .png per fare esempi di caricamento di serie e episodi
+-   Per comodità nel progetto sono stati aggiunti dei file .mp3 e .png per fare esempi di caricamento di serie e episodi
     
 CREDIT CARD NUMBER :
 

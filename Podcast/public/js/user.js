@@ -269,7 +269,6 @@ async function showMySeEpisodes (usrRole, usrId, seId, app, categories) {
  * @param {*} usrId
  */
 function creazioneSeEp (nomeform, usrId, seId) {
-    console.log(document.querySelector('#'+nomeform));
     document.querySelector(`#${nomeform}`).addEventListener('submit', async function () {
         const form = event.target;
         const title = document.querySelector(`#titolo`).value;
